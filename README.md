@@ -17,7 +17,7 @@ pyhton grad_des.py
 ```
 
 ## Requirements
-* [Node.js)(https://nodejs.org)
+* [Node.js](https://nodejs.org)
 * Python 2.7
 * Tensorflow
 * Anaconda
