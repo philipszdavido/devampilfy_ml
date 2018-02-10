@@ -1,5 +1,5 @@
 const step_gradient = (b_current, m_current, points, learningRate) => {
-    //console.log('h')
+
     b_gradient = 0
     m_gradient = 0
     N = points.length
@@ -11,7 +11,6 @@ const step_gradient = (b_current, m_current, points, learningRate) => {
     }
     new_b = b_current - (learningRate * b_gradient)
     new_m = m_current - (learningRate * m_gradient)
-        //console.log(new_m)
     return [new_b, new_m]
 }
 
@@ -22,7 +21,6 @@ const gradient_descent_runner = (points, starting_b, starting_m, learning_rate, 
         b = step_gradient(b, m, points, learning_rate)[0]
         m = step_gradient(b, m, points, learning_rate)[1]
     }
-    //console.log(num_iterations)
     return [b, m]
 }
 const test = (points, b) => {
@@ -35,22 +33,21 @@ const test = (points, b) => {
     return res
 }
 var points = [
-        [1, 1],
-        [2, 3],
-        [4, 3],
-        [3, 2],
-        [5, 5]
-    ]
-    /*[
-        [13, 14],
-        [12, 56]
-    ]*/
+    //x, y
+    [1, 1],
+    [2, 3],
+    [4, 3],
+    [3, 2],
+    [5, 5]
+]
+
 const learning_rate = 0.0001
 const initial_b = 0 // initial y-intercept guess
 const initial_m = 0 // initial slope guess
 const num_iterations = 2000
-    //[b, m]
+
 console.log('Running')
 b = gradient_descent_runner(points, initial_b, initial_m, learning_rate, num_iterations)
 console.log(b)
+console.log('....... Running Tests .......\n')
 console.log(test(points, b))
