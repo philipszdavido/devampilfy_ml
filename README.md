@@ -5,7 +5,7 @@ A machine learning (`Linear Regression` + `Gradient Descent`) programs written i
 ## Files
 
 1. **grad_des.py** - A Python code by **Matt Nedrich** to demonstrate `Linear Regression` + `Gradient Descent`.
-1. **grad_des.js** - JavaScript code I converted from **Matt Nedrich**'s `grad_des.py` code.
+1. **grad_des.js** - JavaScript code I converted from **Matt Nedrich**'s `grad_des.py` Python code to demonstrate `Linear Regression` + `Gradient Descent` in JavaScript.
 1. **tensorflow.py** - Tensorflow model that demonstrates the use of the ML library to write ML programs.
 
 ## Usage
