@@ -10,13 +10,13 @@ A machine learning (`Linear Regression` + `Gradient Descent`) programs written i
 
 ## Usage
 
-To run the JS model(s), run the following command:
+To execute the JS model(s), run the following command:
 
 ```bash
 node grad_des.js
 ```
 
-To run the Python model(s), run the following command:
+To execute the Python model(s), run the following command(s):
 
 ```bash
 python grad_des.py
