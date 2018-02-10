@@ -1,0 +1,16 @@
+{
+  "name": "xor_ml",
+  "version": "1.0.0",
+  "description": "Solve the XOR problem using the Gradient Descent Optimizier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "machine",
+    "learning",
+    "xor"
+  ],
+  "author": "Chidume Nnamdi <kurtwanger40@gmail.com>",
+  "license": "ISC"
+}
