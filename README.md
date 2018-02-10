@@ -13,7 +13,7 @@ node grad_des.js
 To run the Python model(s), run the following command:
 
 ```bash
-pyhton grad_des.py
+python grad_des.py
 ```
 
 ## Requirements
@@ -22,9 +22,9 @@ pyhton grad_des.py
 * [Tensorflow](https://www.tensorflow.org/)
 * [Anaconda](https://conda.io/docs/py2or3.html)
 * [pip](https://pypi.python.org/pypi/pip)
-* [Juypter](http://jupyter.org/)
+* [Jupyter](http://jupyter.org/)
 
-## What else
+## What else ?
 Click to follow me on [Twitter](https://twitter.com/ngArchangel)
 
-Thanks! Chidume Nnamdi
+Thanks! [Chidume Nnamdi](https://twitter.com/ngArchangel)
