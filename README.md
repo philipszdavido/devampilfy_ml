@@ -1,6 +1,12 @@
 # devampilfy_ml
 
-A machine learning (Linear Regresion + Gradient Descent) programs written in both JavaScript and Python for the DevAmplify Bot Party 2018.
+A machine learning (`Linear Regression` + `Gradient Descent`) programs written in both `JavaScript` and `Python` for the `DevAmplify Bot Party 2018`.
+
+## Files
+
+1. **grad_des.py** - A Python code by **Matt Nedrich** to demonstrate `Linear Regression` + `Gradient Descent`.
+1. **grad_des.js** - JavaScript code I converted from **Matt Nedrich**'s `grad_des.py` code.
+1. **tensorflow.py** - Tensorflow model that demonstrates the use of the ML library to write ML programs.
 
 ## Usage
 
@@ -14,6 +20,7 @@ To run the Python model(s), run the following command:
 
 ```bash
 python grad_des.py
+python tensorflow.py
 ```
 
 ## Requirements
